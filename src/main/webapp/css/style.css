@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body
+{
+   font-family: 'Gilroy', sans-serif;
+	margin: 0;
+	height: 100%;
+}
+
+.custom-bg
+{
+	background:rgb(128, 0, 64)!important;
+	
+}
+
+.admin .card{
+	border: 1px solid rgb(128, 0, 64) !important;
+}
+
+.card-columns:hover{
+	background:cover;
+	cursor:pointer;
+}
+
+.card:hover{
+	background:cover;
+	cursor:pointer;
+}
+
+.list-group-item-action active
+{
+	background:rgb(128, 0, 64)!important;
+	border-color:rgb(128, 0, 64)!important;
+}
+
+.mid-align:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em;
+    
+ }
+ 
+ .non-underline-link{
+   text-decoration: none !important;
+}
+
+.bcontent {
+            margin-top: 10px;
+        }
+    
+ .modal-size {
+    max-width: 80% !important;
+}
+
+.nav-link {
+     font-size: 16px;
+}
